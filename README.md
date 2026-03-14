@@ -1,0 +1,150 @@
+Velora – Modern E-commerce UI
+
+Velora is a modern e-commerce user interface built with Next.js, TypeScript and TailwindCSS.
+
+The project focuses on building a scalable frontend architecture with reusable components and modern UI patterns.
+
+It demonstrates how a real online store interface can be structured using Next.js App Router, component-driven development, and clean UI design.
+
+Tech Stack
+
+Next.js (App Router)
+
+TypeScript
+
+TailwindCSS
+
+shadcn/ui
+
+Framer Motion
+
+Lucide Icons
+
+LocalStorage (cart & favorites)
+
+Features
+Product Listing
+
+Responsive product grid
+
+Product cards with rating and pricing
+
+Product Detail
+
+Product preview modal
+
+Quantity selector
+
+Add to cart functionality
+
+Cart System
+
+Slide cart menu
+
+Cart items with total price calculation
+
+LocalStorage persistence
+
+Favorites
+
+Add / remove favorite products
+
+Favorite indicator in header
+
+Search
+
+Animated search placeholder
+
+Product filtering by name
+
+Filters
+
+Price (Low → High)
+
+Price (High → Low)
+
+Customer Rating
+
+Order Tracking Page
+
+Shipment timeline UI
+
+Order summary
+
+Support Center
+
+FAQ section
+
+Contact form
+
+Authentication UI
+
+Login page
+
+Register page
+
+Custom auth layout
+
+Dark Mode
+
+Full dark mode support
+
+Project Structure
+app
+├─ (routes)
+│ ├─ page.tsx
+│ ├─ about
+│ ├─ support
+│ ├─ track-order
+│
+├─ auth
+│ ├─ login
+│ └─ register
+│
+components
+├─ menu
+├─ product
+├─ cart
+├─ footer
+└─ ui
+
+context
+├─ cart-context
+└─ favorites-context
+
+constants
+├─ products
+└─ carousel
+Installation
+
+Clone the repository
+
+git clone https://github.com/yourusername/velora.git
+
+Install dependencies
+
+npm install
+
+Run development server
+
+npm run dev
+
+Open
+
+http://localhost:3000
+Future Improvements
+
+API integration
+
+Authentication system
+
+Payment integration
+
+Product database
+
+Admin dashboard
+
+Author
+
+Semir Reyhan
+Frontend Developer
