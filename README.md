@@ -1,150 +1,123 @@
-Velora – Modern E-commerce UI
+# Velora – Modern E-commerce UI
 
-Velora is a modern e-commerce user interface built with Next.js, TypeScript and TailwindCSS.
+Velora is a modern e-commerce user interface built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
-The project focuses on building a scalable frontend architecture with reusable components and modern UI patterns.
+This project focuses on building a scalable frontend architecture with reusable components and modern UI patterns. It demonstrates how a real online store interface can be structured using **Next.js App Router**, **component-driven development**, and **clean UI design**.
 
-It demonstrates how a real online store interface can be structured using Next.js App Router, component-driven development, and clean UI design.
+## Tech Stack
 
-Tech Stack
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Framer Motion
+- Lucide React
+- LocalStorage
 
-Next.js (App Router)
+## Features
 
-TypeScript
+### Product Listing
 
-TailwindCSS
+- Responsive product grid
+- Product cards with rating and pricing
 
-shadcn/ui
+### Product Detail
 
-Framer Motion
+- Product preview modal
+- Quantity selector
+- Add to cart functionality
 
-Lucide Icons
+### Cart System
 
-LocalStorage (cart & favorites)
+- Slide cart menu
+- Cart items with total price calculation
+- LocalStorage persistence
 
-Features
-Product Listing
+### Favorites
 
-Responsive product grid
+- Add / remove favorite products
+- Favorite indicator in header
 
-Product cards with rating and pricing
+### Search
 
-Product Detail
+- Animated search placeholder
+- Product filtering by name
 
-Product preview modal
+### Filters
 
-Quantity selector
+- Price: Low to High
+- Price: High to Low
+- Customer Rating
 
-Add to cart functionality
+### Order Tracking Page
 
-Cart System
+- Shipment timeline UI
+- Order summary
 
-Slide cart menu
+### Support Center
 
-Cart items with total price calculation
+- FAQ section
+- Contact form
 
-LocalStorage persistence
+### Authentication UI
 
-Favorites
+- Login page
+- Register page
+- Custom auth layout
 
-Add / remove favorite products
+### Dark Mode
 
-Favorite indicator in header
+- Dark mode support
 
-Search
+## Project Structure
 
-Animated search placeholder
-
-Product filtering by name
-
-Filters
-
-Price (Low → High)
-
-Price (High → Low)
-
-Customer Rating
-
-Order Tracking Page
-
-Shipment timeline UI
-
-Order summary
-
-Support Center
-
-FAQ section
-
-Contact form
-
-Authentication UI
-
-Login page
-
-Register page
-
-Custom auth layout
-
-Dark Mode
-
-Full dark mode support
-
-Project Structure
+```bash
 app
 ├─ (routes)
-│ ├─ page.tsx
-│ ├─ about
-│ ├─ support
-│ ├─ track-order
-│
+│  ├─ (home)
+│  ├─ about
+│  ├─ support
+│  ├─ track-order
+│  └─ cart
 ├─ auth
-│ ├─ login
-│ └─ register
-│
+│  ├─ login
+│  └─ register
+
 components
 ├─ menu
 ├─ product
-├─ cart
-├─ footer
-└─ ui
+├─ ui
 
 context
-├─ cart-context
-└─ favorites-context
+├─ cart-context.tsx
+└─ favorites-context.tsx
 
-constants
+public
+├─ about
 ├─ products
-└─ carousel
-Installation
+└─ slider
 
-Clone the repository
+ ### Installation
 
-git clone https://github.com/yourusername/velora.git
+Clonetherepository: git clone https://github.com/sreyhan90/velora-ecommerce.git
+Gototheprojectfolder: cd velora-ecommerce
+Runthedevelopmentserver: npm run dev
+Openinyourbrowser: http://localhost:3000
 
-Install dependencies
+### Future Improvements
 
-npm install
+-API integration
 
-Run development server
+-Authentication system
 
-npm run dev
+-Payment integration
 
-Open
+-Admin dashboard
 
-http://localhost:3000
-Future Improvements
-
-API integration
-
-Authentication system
-
-Payment integration
-
-Product database
-
-Admin dashboard
+-Product database
 
 Author
 
 Semir Reyhan
-Frontend Developer
+
+```
