@@ -71,10 +71,10 @@ This project focuses on building a scalable frontend architecture with reusable 
 
 ### Installation
 
--Clone the repository: git clone https://github.com/sreyhan90/velora-ecommerce.git
--Go to the project folder: cd velora-ecommerce
--Run the development server: npm run dev
--Open in your browser: http://localhost:3000
+- Clone the repository: git clone https://github.com/sreyhan90/velora-ecommerce.git
+- Go to the project folder: cd velora-ecommerce
+- Run the development server: npm run dev
+- Open in your browser: http://localhost:3000
 
 ### Future Improvements
 
