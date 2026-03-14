@@ -96,13 +96,14 @@ public
 ├─ about
 ├─ products
 └─ slider
+```
 
  ### Installation
 
-Clonetherepository: git clone https://github.com/sreyhan90/velora-ecommerce.git
-Gototheprojectfolder: cd velora-ecommerce
-Runthedevelopmentserver: npm run dev
-Openinyourbrowser: http://localhost:3000
+Clone the repository: git clone https://github.com/sreyhan90/velora-ecommerce.git
+Go to the project folder: cd velora-ecommerce
+Run the development server: npm run dev
+Open in your browser: http://localhost:3000
 
 ### Future Improvements
 
