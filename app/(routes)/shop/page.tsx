@@ -1,12 +1,18 @@
 "use client";
-import React from "react";
+import { Suspense } from "react";
 import ProductList from "../components/product/ProductList";
+
+function ProductListFallback() {
+  return <div>Ürünler yükleniyor...</div>;
+}
 
 const ShopPage = () => {
   return (
     <div>
       {" "}
-      <ProductList />
+      <Suspense fallback={<ProductListFallback />}>
+        <ProductList />
+      </Suspense>
     </div>
   );
 };
