@@ -4,8 +4,7 @@ Velora is a modern e-commerce user interface built with **Next.js**, **TypeScrip
 
 This project focuses on building a scalable frontend architecture with reusable components and modern UI patterns. It demonstrates how a real online store interface can be structured using **Next.js App Router**, **component-driven development**, and **clean UI design**.
 
-### Live Demo: velora-ecommerce-pi.vercel.app
-
+Live Demo: [velora-ecommerce-pi.vercel.app](https://velora-ecommerce-pi.vercel.app)
 
 ## Tech Stack
 
